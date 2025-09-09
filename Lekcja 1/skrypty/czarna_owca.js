@@ -1,0 +1,1 @@
+document.write("Ja jestem czarna owca w JS poza body ")

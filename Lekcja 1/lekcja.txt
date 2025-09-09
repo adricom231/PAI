@@ -1,0 +1,46 @@
+Temat: translacja adresów sieciowych.
+
+
+Usługi w internecie opierają się o adresy IPV4 oraz IPv6
+Adresy IPV6 dzielą się na:
+- adresy zewnętrzne (routowalne)
+- adresy wewnętrzne (stosowane w sieciach lokalnych)
+
+Adresy zewnętrzne stosowane w sieci Internet a szerzej w sieciach
+rozległych (WAN) dawno się wyczerpały bo było ich ponad 4.2 miliarda. 
+Tymczasem dzisiaj codziennie pracuje 9-10 mld urządzeń na świecie.
+Szacuje się że za 3 do 5 lat będzie na świecie codziennie aktywne 30 mld urządzeń sieciowych.
+Każdy potrzebuje adresu i jedynym sposobem na wyczerpanie się adresów zewnętrznych w wersji 4 jest stosowanie na routerach lub serwerach usługi translacji adresów sieciowych.
+Swiat informatyki musi przejść na adresy ipv6. ( jrst ich 2 do potęgi 128) i można nimim obdzielić każdy metr kwadratowy kuli ziemskiej). 
+Potrzeba czasu na integrację sieci działających na protokole ipv4 z siećmi opartymi o ipv6.
+
+
+
+NAT (Network Address Translation) pozwala wielu urządzeniom w sieci lokalnej korzystać z jednego publicznego adresu IP do łączenia się z Internetem. Router zmienia prywatny adres IP urządzenia na swój publiczny adres, gdy wysyła dane do Internetu. Odpowiedzi z Internetu router przekazuje z powrotem do odpowiedniego urządzenia, używając zapisanych informacji w tablicy NAT. Dzięki NAT oszczędza się adresy IPv4 i zwiększa bezpieczeństwo sieci, bo zewnętrzne urządzenia nie mają bezpośredniego dostępu do komputerów w LAN. NAT może też przekierowywać połączenia przychodzące, jeśli zostanie odpowiednio skonfigurowany (tzw. port forwarding).
+
+
+Google działa na podstawie kilku kluczowych zasad i mechanizmów, które umożliwiają szybkie i trafne wyszukiwanie informacji. Oto najważniejsze z nich w skrócie:
+
+🔍 1. Indeksowanie internetu
+
+Google za pomocą tzw. crawlerów (robotów) przeszukuje internet, odwiedza strony i zapisuje ich treść w gigantycznej bazie danych zwanej indeksem.
+
+📊 2. Analiza i ranking treści
+
+Google analizuje zawartość stron (teksty, nagłówki, linki, dane strukturalne) i ocenia je według setek czynników rankingowych, np. trafności, jakości treści, szybkości ładowania strony, autorytetu domeny, liczby linków z innych stron.
+
+🔡 3. Dopasowanie do zapytania
+
+Gdy wpisujesz zapytanie, Google porównuje je z zawartością swojego indeksu i wybiera najbardziej trafne strony, biorąc pod uwagę także lokalizację, język, historię wyszukiwania i intencję użytkownika.
+
+⚖️ 4. Algorytmy wyszukiwania
+
+Google używa zaawansowanych algorytmów (np. RankBrain, BERT) opartych na sztucznej inteligencji, które rozumieją kontekst, synonimy i znaczenie zapytania – nie tylko dosłowne słowa kluczowe.
+
+📢 5. Reklamy i wyniki organiczne
+
+W wynikach wyszukiwania wyświetlane są zarówno strony „organiczne” (bezpłatne), jak i reklamy Google Ads – te drugie są oznaczone i zależą od systemu aukcji reklamowej.
+
+Jeśli chcesz, mogę też skrócić to do 2-3 zdań albo przedstawić graficzny schemat działania Google.
+
+

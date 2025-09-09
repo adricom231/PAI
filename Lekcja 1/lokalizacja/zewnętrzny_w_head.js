@@ -1,0 +1,1 @@
+document.write("JavaScript z zewnętrznego pliku przed body" + "<BR> <BR>");
