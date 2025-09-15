@@ -1,0 +1,1 @@
+window.confirm("\"ZAINFEKUJE CI WINDOWSA SZMATO\"")
