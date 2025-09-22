@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var zmienna1 = "tekst";
+        var zmienna2 = "1";
+        var nieJestLiczbą = isNaN(zmienna1);
+
+        document.write("Zmienna 1 to: " + zmienna1 + "<br>")
+        document.write("Zmienna 2 to: " + zmienna2 + "<br>")
+
+        if (nieJestLiczbą) {
+            document.write("Wartość zmiennej zmienna1 <b> NIE </b> może być interpretowana jako liczba <br>")
+
+        } else {
+            document.write("Wartość zmiennej1 <b> MOŻE BYĆ </b> INterpretowana jako liczba <br>")
+        }
+        var nieJestLiczbą2 = isNaN(zmienna2)
+        if (nieJestLiczbą2) {
+            document.write("Wartość zmiennej zmienna1 <b> NIE </b> może być interpretowana jako liczba <br>")
+        } else {
+            document.write("Wartość zmiennej1 <b> MOŻE BYĆ </b> interpretowana jako liczba <br>")
+
+        }
+    </script>
+</body>
+
+</html>
