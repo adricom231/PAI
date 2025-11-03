@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var liczba = parseInt(prompt("Podaj liczbe "))
+        if(isNaN(liczba)){
+            alert("Podaj poprawną liczbę")    
+        }
+        else{
+           if(liczba > 100 && liczba%3==0){
+                alert("Liczba jest większa od 100 i podzielna przez 3")
+            }else{
+                if(liczba < 100){
+                    alert("Liczba jest mniejsza od 100")
+                }
+                if(liczba%3 != 0 ){
+                    alert("Liczba nie jest podzielna przez 3")
+                }
+            
+            }   
+        }
+    </script>
+</body>
+</html>

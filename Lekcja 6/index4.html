@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var wzrost = parseInt(prompt("Podaj wzrost"))
+        if(isNaN(wzrost)){
+            alert("Podaj poprawną liczbę")    
+        }
+        if(wzrost <= 150){
+            document.write(`<p style="color: blue;">niski</p>`)
+        }else{
+            if(wzrost>150 && wzrost<180){
+                 document.write(`<p style="color: green;">średni</p>`)
+            }else{
+                if(wzrost>=180){
+                    document.write(`<p style="color: red;">wysoki</p>`)}
+            }
+        }
+
+
+    </script>
+</body>
+</html>
