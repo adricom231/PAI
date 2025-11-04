@@ -6,19 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-
     <script>
-        var kolor =  prompt("Podaj kolor, 1-czerwony,2-zielony: ")
-        if(kolor=="1"){
-            document.write(`<p style="color: red;">czerwony</p>`)
-        }else{
-            if(kolor=="2"){
-                document.write(`<p style="color: green;">zielony</p>`)
-            }
+        var a = Number(prompt('Podaj dzień tygodnia'))
+
+
+        switch(a){
+            case 0 : document.write("Dzisiaj jest niedziela"); break;
+            case 1 : document.write("Dzisiaj jest poniedziałek"); break;
+            case 2 : document.write("Dzisiaj jest wtorek"); break;
+            case 3 : document.write("Dzisiaj jest środa"); break;
+            case 4 : document.write("Dzisiaj jest czwartek"); break;
+            case 5 : document.write("Dzisiaj jest piątek"); break;
+            case 6 : document.write("Dzisiaj jest sobota"); break;
+
+            default : alert('PODAJ LICZBĘ OD 0 DO 6')
         }
-
-        
     </script>
-
 </body>
 </html>
