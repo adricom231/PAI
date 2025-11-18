@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function suma(a,b){
+            document.write("Suma wynosi: "+(a+b))
+        }
+
+        function iloczyn(a,b){
+            let x= parseFloat(prompt("Podaj wynik mnożenia: "+a+"*"+b))
+            if(x==a*b){
+                alert("WYnik poprawny")
+            }else{
+                alert("BŁĄD!! "+a+"*"+b+"="+(a*b))
+            }
+        }
+
+        function tre(z){
+            for(i=0;i<=z;i++){
+                if((i%3) != 0)
+                continue;
+                document.write(i+";")
+            }
+        }
+        iloczyn(4,5)
+        //suma(2,2)
+    </script>
+</body>
+</html>
